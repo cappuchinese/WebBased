@@ -1,6 +1,7 @@
 .gradle
 .idea
 venv
+build
 gradle
 gradlew
 gradlew.bat
