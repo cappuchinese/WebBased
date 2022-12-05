@@ -1,0 +1,18 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf Starter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h2 th:text="#{page.title}">HR zones offline</h2>
+    <p th:text="#{information}">Information offline</p>
+    <form action="give.hr" method="GET">
+        <div>
+            <label>Maximum heart rate:</label>
+            <input type="number" placeholder="max. heart rate" />
+        </div>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>
